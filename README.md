@@ -1,3 +1,3 @@
-# Civ 6 Logical Tech Tree
+# cql
 
-This project will attempt to make the tech tree make a little bit more logical sense, and to balance it a bit. WIP. The eventual aim is to merge with stuff I like from [cqui](https://github.com/chaorace/cqui) for some general QOL improvements.
+This project will attempt to make the tech tree make a little bit more logical sense, and to balance it a bit. WIP. The eventual aim is to merge with stuff I like from [cqui](https://github.com/chaorace/cqui) for some general quality of life improvements.
