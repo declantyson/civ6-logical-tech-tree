@@ -210,30 +210,32 @@
 		<Row Technology="TECH_RIFLING" PrereqTech="TECH_BALLISTICS"/>
 		<Row Technology="TECH_RIFLING" PrereqTech="TECH_MILITARY_SCIENCE"/>
 		<!--Modern Era-->
-		<Row Technology="TECH_FLIGHT" PrereqTech="TECH_INDUSTRIALIZATION"/>
-		<Row Technology="TECH_FLIGHT" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
-		<Row Technology="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_ECONOMICS"/>
-		<Row Technology="TECH_STEEL" PrereqTech="TECH_BALLISTICS"/>
 		<Row Technology="TECH_ELECTRICITY" PrereqTech="TECH_STEAM_POWER"/>
 		<Row Technology="TECH_RADIO" PrereqTech="TECH_STEAM_POWER"/>
-		<Row Technology="TECH_RADIO" PrereqTech="TECH_FLIGHT"/>
+		<Row Technology="TECH_RADIO" PrereqTech="TECH_ELECTRICITY"/>
+		<Row Technology="TECH_FLIGHT" PrereqTech="TECH_INDUSTRIALIZATION"/>
+		<Row Technology="TECH_FLIGHT" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
+		<Row Technology="TECH_FLIGHT" PrereqTech="TECH_STEEL"/>
+		<Row Technology="TECH_FLIGHT" PrereqTech="TECH_RADIO"/>
+		<Row Technology="TECH_STEEL" PrereqTech="TECH_BALLISTICS"/>
+		<Row Technology="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_RIFLING"/>
+		<Row Technology="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_STEEL"/>
 		<Row Technology="TECH_CHEMISTRY" PrereqTech="TECH_SANITATION"/>
-		<Row Technology="TECH_COMBUSTION" PrereqTech="TECH_STEEL"/>
-		<Row Technology="TECH_COMBUSTION" PrereqTech="TECH_RIFLING"/>
+		<Row Technology="TECH_COMBUSTION" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<Row Technology="TECH_COMBUSTION" PrereqTech="TECH_CHEMISTRY"/>
 		<!--Atomic Era-->
 		<Row Technology="TECH_COMPUTERS" PrereqTech="TECH_ELECTRICITY"/>
+		<Row Technology="TECH_COMPUTERS" PrereqTech="TECH_RADIO"/>
 		<Row Technology="TECH_ADVANCED_FLIGHT" PrereqTech="TECH_RADIO"/>
 		<Row Technology="TECH_ADVANCED_FLIGHT" PrereqTech="TECH_COMBINED_ARMS"/>
 		<Row Technology="TECH_ROCKETRY" PrereqTech="TECH_RADIO"/>
-		<Row Technology="TECH_ROCKETRY" PrereqTech="TECH_CHEMISTRY"/>
+		<Row Technology="TECH_ROCKETRY" PrereqTech="TECH_COMBUSTION"/>
 		<Row Technology="TECH_ROCKETRY" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
 		<Row Technology="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_REPLACEABLE_PARTS"/>
 		<Row Technology="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_STEEL"/>
-		<Row Technology="TECH_COMBINED_ARMS" PrereqTech="TECH_STEEL"/>
-		<Row Technology="TECH_COMBINED_ARMS" PrereqTech="TECH_COMBUSTION"/>
-		<Row Technology="TECH_NUCLEAR_FISSION" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
-		<Row Technology="TECH_NUCLEAR_FISSION" PrereqTech="TECH_COMBINED_ARMS"/>
-		<Row Technology="TECH_PLASTICS" PrereqTech="TECH_COMBUSTION"/>
+		<Row Technology="TECH_COMBINED_ARMS" PrereqTech="TECH_FLIGHT"/>
+		<Row Technology="TECH_NUCLEAR_FISSION" PrereqTech="TECH_COMBUSTION"/>
+		<Row Technology="TECH_PLASTICS" PrereqTech="TECH_CHEMISTRY"/>
 		<Row Technology="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_PLASTICS"/>
 		<!--Information Era-->
 		<Row Technology="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_COMPUTERS"/>
