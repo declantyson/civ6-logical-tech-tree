@@ -223,8 +223,10 @@
 		<!--Atomic Era-->
 		<Row Technology="TECH_COMPUTERS" PrereqTech="TECH_ELECTRICITY"/>
 		<Row Technology="TECH_ADVANCED_FLIGHT" PrereqTech="TECH_RADIO"/>
+		<Row Technology="TECH_ADVANCED_FLIGHT" PrereqTech="TECH_COMBINED_ARMS"/>
 		<Row Technology="TECH_ROCKETRY" PrereqTech="TECH_RADIO"/>
 		<Row Technology="TECH_ROCKETRY" PrereqTech="TECH_CHEMISTRY"/>
+		<Row Technology="TECH_ROCKETRY" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
 		<Row Technology="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_REPLACEABLE_PARTS"/>
 		<Row Technology="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_STEEL"/>
 		<Row Technology="TECH_COMBINED_ARMS" PrereqTech="TECH_STEEL"/>
@@ -235,15 +237,21 @@
 		<Row Technology="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_PLASTICS"/>
 		<!--Information Era-->
 		<Row Technology="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_COMPUTERS"/>
+		<Row Technology="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_RADIO"/>
 		<Row Technology="TECH_ROBOTICS" PrereqTech="TECH_COMPUTERS"/>
+		<Row Technology="TECH_ROBOTICS" PrereqTech="TECH_SATELLITES"/>
 		<Row Technology="TECH_SATELLITES" PrereqTech="TECH_ADVANCED_FLIGHT"/>
+		<Row Technology="TECH_SATELLITES" PrereqTech="TECH_GUIDANCE_SYSTEMS"/>
 		<Row Technology="TECH_SATELLITES" PrereqTech="TECH_ROCKETRY"/>
 		<Row Technology="TECH_GUIDANCE_SYSTEMS" PrereqTech="TECH_ROCKETRY"/>
-		<Row Technology="TECH_GUIDANCE_SYSTEMS" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+		<Row Technology="TECH_GUIDANCE_SYSTEMS" PrereqTech="TECH_TELECOMMUNICATIONS"/>
+		<Row Technology="TECH_LASERS" PrereqTech="TECH_ROCKETRY"/>
 		<Row Technology="TECH_LASERS" PrereqTech="TECH_NUCLEAR_FISSION"/>
 		<Row Technology="TECH_COMPOSITES" PrereqTech="TECH_SYNTHETIC_MATERIALS"/>
-		<Row Technology="TECH_STEALTH_TECHNOLOGY" PrereqTech="TECH_SYNTHETIC_MATERIALS"/>
-		<Row Technology="TECH_NANOTECHNOLOGY" PrereqTech="TECH_COMPOSITES"/>
+		<Row Technology="TECH_STEALTH_TECHNOLOGY" PrereqTech="TECH_ADVANCED_FLIGHT"/>
+		<Row Technology="TECH_STEALTH_TECHNOLOGY" PrereqTech="TECH_COMPOSITES"/>
+		<Row Technology="TECH_NANOTECHNOLOGY" PrereqTech="TECH_ROBOTICS"/>
+		<Row Technology="TECH_NUCLEAR_FUSION" PrereqTech="TECH_SATELLITES"/>
 		<Row Technology="TECH_NUCLEAR_FUSION" PrereqTech="TECH_LASERS"/>
 		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_SATELLITES"/>
 		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_ROBOTICS"/>
