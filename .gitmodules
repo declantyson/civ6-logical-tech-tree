@@ -1,3 +1,6 @@
 [submodule "cqui"]
 	path = cqui
 	url = git@github.com:chaorace/cqui
+[submodule "Civ6-YnAMP"]
+	path = Civ6-YnAMP
+	url = git@github.com:declantyson/Civ6-YnAMP
