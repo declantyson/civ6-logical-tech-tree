@@ -164,13 +164,15 @@
 		<Row Technology="TECH_SHIPBUILDING" PrereqTech="TECH_SAILING"/>
 		<Row Technology="TECH_CELESTIAL_NAVIGATION" PrereqTech="TECH_SAILING"/>
 		<Row Technology="TECH_CELESTIAL_NAVIGATION" PrereqTech="TECH_ASTROLOGY"/>
-		<Row Technology="TECH_CURRENCY" PrereqTech="TECH_WRITING"/>
+		<Row Technology="TECH_CURRENCY" PrereqTech="TECH_MATHEMATICS"/>
+		<Row Technology="TECH_MATHEMATICS" PrereqTech="TECH_WRITING"/>
 		<Row Technology="TECH_HORSEBACK_RIDING" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
 		<Row Technology="TECH_IRON_WORKING" PrereqTech="TECH_BRONZE_WORKING"/>
-		<Row Technology="TECH_MATHEMATICS" PrereqTech="TECH_CURRENCY"/>
-		<Row Technology="TECH_CONSTRUCTION" PrereqTech="TECH_MASONRY"/>
-		<Row Technology="TECH_CONSTRUCTION" PrereqTech="TECH_HORSEBACK_RIDING"/>
+		<Row Technology="TECH_ENGINEERING" PrereqTech="TECH_ARCHERY"/>
 		<Row Technology="TECH_ENGINEERING" PrereqTech="TECH_THE_WHEEL"/>
+		<Row Technology="TECH_CONSTRUCTION" PrereqTech="TECH_MASONRY"/>
+		<Row Technology="TECH_CONSTRUCTION" PrereqTech="TECH_ENGINEERING"/>
+		<Row Technology="TECH_CONSTRUCTION" PrereqTech="TECH_HORSEBACK_RIDING"/>
 		<!-- Medieval Era-->
 		<Row Technology="TECH_MILITARY_TACTICS" PrereqTech="TECH_MATHEMATICS"/>
 		<Row Technology="TECH_APPRENTICESHIP" PrereqTech="TECH_CURRENCY"/>
@@ -184,6 +186,8 @@
 		<Row Technology="TECH_MILITARY_ENGINEERING" PrereqTech="TECH_CONSTRUCTION"/>
 		<!--RenaissanceEra-->
 		<Row Technology="TECH_CARTOGRAPHY" PrereqTech="TECH_SHIPBUILDING"/>
+		<Row Technology="TECH_PRINTING" PrereqTech="TECH_MACHINERY"/>
+		<Row Technology="TECH_MASS_PRODUCTION" PrereqTech="TECH_PRINTING"/>
 		<Row Technology="TECH_MASS_PRODUCTION" PrereqTech="TECH_EDUCATION"/>
 		<Row Technology="TECH_MASS_PRODUCTION" PrereqTech="TECH_SHIPBUILDING"/>
 		<Row Technology="TECH_BANKING" PrereqTech="TECH_EDUCATION"/>
@@ -191,7 +195,6 @@
 		<Row Technology="TECH_GUNPOWDER" PrereqTech="TECH_APPRENTICESHIP"/>
 		<Row Technology="TECH_GUNPOWDER" PrereqTech="TECH_STIRRUPS"/>
 		<Row Technology="TECH_GUNPOWDER" PrereqTech="TECH_MILITARY_ENGINEERING"/>
-		<Row Technology="TECH_PRINTING" PrereqTech="TECH_MACHINERY"/>
 		<Row Technology="TECH_SQUARE_RIGGING" PrereqTech="TECH_CARTOGRAPHY"/>
 		<Row Technology="TECH_ASTRONOMY" PrereqTech="TECH_EDUCATION"/>
 		<Row Technology="TECH_METAL_CASTING" PrereqTech="TECH_GUNPOWDER"/>
@@ -219,6 +222,7 @@
 		<Row Technology="TECH_FLIGHT" PrereqTech="TECH_RADIO"/>
 		<Row Technology="TECH_STEEL" PrereqTech="TECH_BALLISTICS"/>
 		<Row Technology="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_RIFLING"/>
+		<Row Technology="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_INDUSTRIALIZATION"/>
 		<Row Technology="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_STEEL"/>
 		<Row Technology="TECH_CHEMISTRY" PrereqTech="TECH_SANITATION"/>
 		<Row Technology="TECH_COMBUSTION" PrereqTech="TECH_REPLACEABLE_PARTS"/>

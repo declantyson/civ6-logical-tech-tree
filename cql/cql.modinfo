@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="03B8BDDE-SOME-WORD-9540-26E685E3156E" version="1">
 	<Properties>
-		<Name>Logical Tech Tree</Name>
-		<Description>Makes the tech tree make more sense</Description>
-		<Teaser>Makes the tech tree make more sense</Teaser>
+		<Name>CQL</Name>
+		<Description>Makes the tech tree make more sense, balances it.</Description>
+		<Teaser>Quality of life improvemnets</Teaser>
 		<Authors>declantyson</Authors>
 		<SpecialThanks></SpecialThanks>
 	</Properties>
