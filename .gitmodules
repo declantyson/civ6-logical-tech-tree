@@ -1,0 +1,3 @@
+[submodule "cqui"]
+	path = cqui
+	url = git@github.com:chaorace/cqui
