@@ -3,18 +3,21 @@
 	<Properties>
 		<Name>CQL</Name>
 		<Description>Makes the tech tree make more sense, balances it.</Description>
-		<Teaser>Quality of life improvemnets</Teaser>
+		<Teaser>Quality of life improvements v0.0.1</Teaser>
 		<Authors>declantyson</Authors>
 		<SpecialThanks></SpecialThanks>
 	</Properties>
-    <Components>
-        <ImportFiles id="CQUI_IMPORT_FILES">
-            <Items>
-				<File>Gameplay/Data/Technologies.xml</File>
-            </Items>
-        </ImportFiles>
-    </Components>
 	<Files>
-		<File>Gameplay/Data/Technologies.xml</File>
+		<File>cqlTechnology.xml</File>
 	</Files>
+    <Components>
+    	<UpdateDatabase id="cqlComponent">
+			<Properties>
+				<Ruleset>RULESET_STANDARD</Ruleset>
+			</Properties>
+			<Items>
+				<File>cqlTechnology.xml</File>
+			</Items>
+		</UpdateDatabase>
+    </Components>
 </Mod>
