@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Technologies>
+		<Update>
+			<Where TechnologyType="TECH_ARCHERY"/>
+			<Set UITreeRow="1"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_HORSEBACK_RIDING"/>
+			<Set UITreeRow="0"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CURRENCY"/>
+			<Set UITreeRow="-1"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ARCHERY"/>
+			<Set Cost="100"/>
+		</Update>
+	</Technologies>
+	<TechnologyPrereqs>
+		<Row Technology="TECH_ENGINEERING" PrereqTech="TECH_ARCHERY"/>
+		<Update>
+			<Where Technology="TECH_HORSEBACK_RIDING" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+			<Set PrereqTech="TECH_ARCHERY"/>
+		</Update>
+	</TechnologyPrereqs>
+</GameInfo>
