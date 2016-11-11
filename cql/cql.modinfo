@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="03B8BDDE-SOME-FFFF-9540-26E685E3156E" version="0.0.14">
+<Mod id="03B8BDDE-SOME-FFFF-9540-26E685E3156E" version="0.0.15">
 	<Properties>
 		<Name>CQL</Name>
 		<Description>Makes the tech tree make more sense, balances it.</Description>
-		<Teaser>Quality of life improvements v0.0.14</Teaser>
+		<Teaser>Quality of life improvements v0.0.15 [untested]</Teaser>
 		<Authors>declantyson</Authors>
 		<SpecialThanks></SpecialThanks>
 	</Properties>

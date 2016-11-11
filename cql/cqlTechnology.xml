@@ -2,28 +2,124 @@
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameInfo>
 	<Technologies>
+		<!-- Ancient Era -->
 		<Update>
 			<Where TechnologyType="TECH_ARCHERY"/>
 			<Set UITreeRow="1"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ARCHERY"/>
+			<Set Cost="100"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_HORSEBACK_RIDING"/>
 			<Set UITreeRow="0"/>
 		</Update>
 		<Update>
-			<Where TechnologyType="TECH_CURRENCY"/>
+			<Where TechnologyType="TECH_MATHEMATICS"/>
+			<Set Cost="180"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MATHEMATICS"/>
 			<Set UITreeRow="-1"/>
 		</Update>
 		<Update>
-			<Where TechnologyType="TECH_ARCHERY"/>
-			<Set Cost="100"/>
+			<Where TechnologyType="TECH_CURRENCY"/>
+			<Set Cost="300"/>
 		</Update>
 	</Technologies>
 	<TechnologyPrereqs>
-		<Row Technology="TECH_ENGINEERING" PrereqTech="TECH_ARCHERY"/>
+		<!-- Ancient Era -->
 		<Update>
-			<Where Technology="TECH_HORSEBACK_RIDING" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
-			<Set PrereqTech="TECH_ARCHERY"/>
+			<Where Technology="TECH_HORSEBACK_RIDING" PrereqTech="TECH_ANIMAL_HUSBANDRY" />
+			<Set PrereqTech="TECH_ARCHERY" />
 		</Update>
+
+		<!-- Classical Era -->
+		<Update>
+			<Where Technology="TECH_SHIPBUILDING" PrereqTech="TECH_SAILING" />
+			<Set PrereqTech="TECH_CELESTIAL_NAVIGATION" />
+		</Update>
+		<Update>
+			<Where Technology="TECH_MATHEMATICS" PrereqTech="TECH_CURRENCY" />
+			<Set PrereqTech="TECH_WRITING" />
+		</Update>
+		<Update>
+			<Where Technology="TECH_CURRENCY" PrereqTech="TECH_WRITING" />
+			<Set PrereqTech="TECH_MATHEMATICS" />
+		</Update>
+		<Row Technology="TECH_ENGINEERING" PrereqTech="TECH_ARCHERY"/>
+		<Row Technology="TECH_CONSTRUCTION" PrereqTech="TECH_ENGINEERING"/>		
+
+		<!-- Medieval Era -->
+
+		<!-- Renaissance Era -->
+		<Row Technology="TECH_PRINTING" PrereqTech="TECH_EDUCATION" />
+		<Row Technology="TECH_MASS_PRODUCTION" PrereqTech="TECH_PRINTING" />
+
+		<!-- Industrial Era -->
+
+		<!-- Modern Era -->
+		<Update>
+			<Where Technology="TECH_RADIO" PrereqTech="TECH_FLIGHT" />
+			<Set PrereqTech="TECH_ELECTRICITY" />
+		</Update>
+		<Row Technology="TECH_FLIGHT" PrereqTech="TECH_STEEL" />
+		<Row Technology="TECH_FLIGHT" PrereqTech="TECH_RADIO" />
+		<Row Technology="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_RIFLING" />
+		<Row Technology="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_INDUSTRIALIZATION" />
+		<Update>
+			<Where Technology="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_ECONOMICS" />
+			<Set PrereqTech="TECH_STEEL" />
+		</Update>
+		<Update>
+			<Where Technology="TECH_COMBUSTION" PrereqTech="TECH_STEEL" />
+			<Set PrereqTech="TECH_REPLACEABLE_PARTS" />
+		</Update>
+		<Update>
+			<Where Technology="TECH_COMBUSTION" PrereqTech="TECH_RIFLING" />
+			<Set PrereqTech="TECH_CHEMISTRY" />
+		</Update>
+
+		<!-- Atomic Era -->
+		<Row Technology="TECH_COMPUTERS" PrereqTech="TECH_RADIO" />
+		<Row Technology="TECH_ROCKETRY" PrereqTech="TECH_ADVANCED_BALLISTICS" />
+		<Update>
+			<Where Technology="TECH_ROCKETRY" PrereqTech="TECH_CHEMISTRY" />
+			<Set PrereqTech="TECH_COMBUSTION" />
+		</Update>
+		<Update>
+			<Where Technology="TECH_COMBINED_ARMS" PrereqTech="TECH_COMBUSTION" />
+			<Set PrereqTech="TECH_FLIGHT" />
+		</Update>
+		<Row Technology="TECH_ADVANCED_FLIGHT" PrereqTech="TECH_COMBINED_ARMS" />
+		<Update>
+			<Where Technology="TECH_NUCLEAR_FISSION" PrereqTech="TECH_COMBINED_ARMS" />
+			<Set PrereqTech="TECH_COMBUSTION" />
+		</Update>
+		<Update>
+			<Where Technology="TECH_PLASTICS" PrereqTech="TECH_COMBUSTION" />
+			<Set PrereqTech="TECH_CHEMISTRY" />
+		</Update>
+
+		<!-- Information Era -->
+		<Row Technology="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_RADIO" />
+		<Update>
+			<Where Technology="TECH_GUIDANCE_SYSTEMS" PrereqTech="TECH_ADVANCED_BALLISTICS" />
+			<Set PrereqTech="TECH_TELECOMMUNICATIONS" />
+		</Update>
+		<Row Technology="TECH_SATELLITES" PrereqTech="TECH_GUIDANCE_SYSTEMS"/>
+		<Row Technology="TECH_ROBOTICS" PrereqTech="TECH_SATELLITES"/>
+		<Row Technology="TECH_LASERS" PrereqTech="TECH_ROCKETRY" />
+		<Row Technology="TECH_STEALTH_TECHNOLOGY" PrereqTech="TECH_ADVANCED_FLIGHT" />
+		<Update> 
+			<Where Technology="TECH_STEALTH_TECHNOLOGY" PrereqTech="TECH_SYNTHETIC_MATERIALS" />
+			<Set PrereqTech="TECH_COMPOSITES" />
+		</Update>
+		<Update>
+			<Where Technology="TECH_NANOTECHNOLOGY" PrereqTech="TECH_COMPOSITES" />
+			<Set PrereqTech="TECH_ROBOTICS" />
+		</Update>
+		<Row Technology="TECH_NUCLEAR_FUSION" PrereqTech="TECH_SATELLITES" />
 	</TechnologyPrereqs>
 </GameInfo>
